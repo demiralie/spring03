@@ -10,6 +10,7 @@ public class DeptSpringExample {
 		
 		Dept dept = ctx.getBean(Dept.class);
 		
+		System.out.println(dept);
 		System.out.println(dept.getDeptno() + ", "+ dept.getDname() + ", " + dept.getLoc());
 		
 		ctx.close();
