@@ -12,6 +12,8 @@ public class DeptExample {
 		dept.setLoc("서울");
 		
 		//사용
+		System.out.println(dept);
+//		dept.print();
 		System.out.println(dept.getDeptno() + ", "+ dept.getDname() + ", " + dept.getLoc());
 		
 	}
